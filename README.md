@@ -40,3 +40,11 @@ function AlwaysInContrast(value) {
   return !value;
 }
 ```
+
+## Find Something useful
+---
+```php
+function hello($google) {
+  return "Hi"
+}
+```
