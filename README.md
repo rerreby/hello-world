@@ -1,33 +1,17 @@
 # hello-world
-This is the header of most big. (similar to H1 in html)
+List of tips and code's snippets
 
-## Table of Contents
+### Table of Contents
 1. [Perform command numerous times (for statement)](#multitimes)
-2. Orange
-3. Yellow
-4. Green
-5. Blue
-6. Dark blue
-7. Violet
+2. [Create random string of characters](#randomstring)
 
-Please type in consode `git config --global user.name "higgy"` this will help
-
-### Code hightlighting
-```js
-function AlwaysInContrast(value) {
-  return !value;
-}
-```
-
-## Find Something useful
----
-```php
-function hello($google) {
-  return "Hi"
-}
-```
-
-## Perform command numerous times (for statement) <a name="multitimes"></a>
+### Perform command numerous times (for statement) <a name="multitimes"></a>
 ```bash
 for run in {1..10}; do echo "Hello"; done
 ```
+
+### Create random string of characters <a name="randomstring"></a>
+```bash
+cat /dev/urandom | head -c 16 | base64
+```
+Add `base64 -D` to pipe to decode the original raw
