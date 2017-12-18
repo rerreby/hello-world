@@ -14,4 +14,4 @@ for run in {1..10}; do echo "Hello"; done
 ```bash
 cat /dev/urandom | head -c 16 | base64
 ```
-Add `base64 -D` to pipe to decode the original raw
+Add `base64 -D` to pipe to get the original raw
