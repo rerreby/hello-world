@@ -48,3 +48,8 @@ function hello($google) {
   return "Hi"
 }
 ```
+
+## Perform command numerous times (for statement)
+```bash
+for run in {1..10}; do echo "Hello"; done
+```
