@@ -6,6 +6,7 @@ List of tips and code's snippets
 2. [Create random string of characters](#randomstring)
 3. [Generate passwords with custom pattern](#custompasswords)
 4. [Encrypt data using openssl](#openssl1)
+5. [Before to do anything on command line git](#gitstatus)
 
 ### Perform command numerous times (for statement) <a name="multitimes"></a>
 ```bash
@@ -33,7 +34,7 @@ echo "U2FsdGVkX1/GxSmGLOFgDIm9KgCpOdw2iwkw4QCBEYw=" | openssl enc -aes-256-cbc -
 ```
 openssl asks you type a pass and then return enctypted string. To decrypt message use `-d` parameter
 
-### Before to do anything on command line git
+### Before to do anything on command line git <a href="gitstatus"></a>
 Before you're going to do anything on your git project in command line, run this line
 ```bash
 git status
