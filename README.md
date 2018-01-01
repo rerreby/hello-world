@@ -34,7 +34,7 @@ echo "U2FsdGVkX1/GxSmGLOFgDIm9KgCpOdw2iwkw4QCBEYw=" | openssl enc -aes-256-cbc -
 ```
 openssl asks you type a pass and then return enctypted string. To decrypt message use `-d` parameter
 
-### Before to do anything on command line git <a href="gitstatus"></a>
+### Before to do anything on command line git <a name="gitstatus"></a>
 Before you're going to do anything on your git project in command line, run this line
 ```bash
 git status
