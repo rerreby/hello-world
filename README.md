@@ -7,6 +7,7 @@ List of tips and code's snippets
 3. [Generate passwords with custom pattern](#custompasswords)
 4. [Encrypt data using openssl](#openssl1)
 5. [Before to do anything on command line git](#gitstatus)
+6. [Start NodeJS](#startnodejs)
 
 ### Perform command numerous times (for statement) <a name="multitimes"></a>
 ```bash
@@ -38,4 +39,10 @@ openssl asks you type a pass and then return enctypted string. To decrypt messag
 Before you're going to do anything on your git project in command line, run this line
 ```bash
 git status
+```
+
+### Start NodeJS <a name="startnodejs"></a>
+NodeJS appears to be a good thing to use. It's easy to run it
+```bash
+node file.js
 ```
