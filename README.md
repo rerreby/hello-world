@@ -1,5 +1,5 @@
 # hello-world
-List of tips and code's snippets of my own
+List of tips and code's snippets of oneself
 
 ### Table of Contents
 1. [Perform command numerous times (for statement)](#multitimes)
