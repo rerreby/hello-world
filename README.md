@@ -1,5 +1,5 @@
 # hello-world
-List of tips and code's snippets of my own
+List of tips and code's snippets of oneself
 
 ### Table of Contents
 1. [Perform command numerous times (for statement)](#multitimes)
@@ -42,7 +42,7 @@ git status
 ```
 
 ### Start NodeJS <a name="startnodejs"></a>
-It's easy to use Node.JS in cli. NodeJS appears to be a good thing to use. It's easy to run it
+It's easy to use NodeJS in cli. NodeJS appears to be a good thing to use. It's easy to run it
 ```bash
 node file.js
 ```
