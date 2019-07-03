@@ -42,7 +42,7 @@ git status
 ```
 
 ### Start NodeJS <a name="startnodejs"></a>
-NodeJS appears to be a good thing to use. It's easy to run it
+It's easy to use Node.JS in cli. NodeJS appears to be a good thing to use. It's easy to run it
 ```bash
 node file.js
 ```
