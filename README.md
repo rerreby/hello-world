@@ -48,7 +48,7 @@ It's easy to use NodeJS in cli. NodeJS appears to be a good thing to use. It's e
 node file.js
 ```
 
-### TAR archive commands <a href="tar"></a>
+### TAR archive commands <a name="tar"></a>
 Most common commands with tar archive are create and extract. So, let's consider them
 ```bash
 tar cvf name.tar * // create tarball with name name.tar
