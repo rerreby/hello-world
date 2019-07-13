@@ -46,3 +46,21 @@ It's easy to use NodeJS in cli. NodeJS appears to be a good thing to use. It's e
 ```bash
 node file.js
 ```
+
+### TAR archive commans
+Most common commands with tar archive are create and extract. So, let's consider them
+```bash
+tar cvf name.tar * // create tarball with name name.tar
+```
+`c` - create
+`v` - verbose 
+`f` - file to output (should be always the last letter if you use non-hyphens forms)
+`*` - files to be archived
+
+Next example is extract
+```bash
+tar xvf name.tar // extracts files from name.tar in current dir
+```
+`x` - extract
+`v` - verbose (can be ommited)
+`f` - archive (as in example above, f should be last letter)
