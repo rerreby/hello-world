@@ -8,6 +8,7 @@ List of tips and code's snippets of oneself
 4. [Encrypt data using openssl](#openssl1)
 5. [Before to do anything on command line git](#gitstatus)
 6. [Start NodeJS](#startnodejs)
+7. [TAR commands](#tar)
 
 ### Perform command numerous times (for statement) <a name="multitimes"></a>
 ```bash
@@ -47,7 +48,7 @@ It's easy to use NodeJS in cli. NodeJS appears to be a good thing to use. It's e
 node file.js
 ```
 
-### TAR archive commans
+### TAR archive commands <a href="tar"></a>
 Most common commands with tar archive are create and extract. So, let's consider them
 ```bash
 tar cvf name.tar * // create tarball with name name.tar
