@@ -69,5 +69,5 @@ tar xvf name.tar // extracts files from name.tar in current dir
 
 ### neofetch - Info about system <a name="neofetch"></a>
 ```bash
-nepfetch # prints info about system
+neofetch # prints info about system
 
