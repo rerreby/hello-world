@@ -9,6 +9,7 @@ List of tips and code's snippets of oneself
 5. [Before to do anything on command line git](#gitstatus)
 6. [Start NodeJS](#startnodejs)
 7. [TAR commands](#tar)
+8. [neofetch](#neofetch)
 
 ### Perform command numerous times (for statement) <a name="multitimes"></a>
 ```bash
@@ -65,3 +66,8 @@ tar xvf name.tar // extracts files from name.tar in current dir
 `x` - extract
 `v` - verbose (can be ommited)
 `f` - archive (as in example above, f should be last letter)
+
+### neofetch - Info about system <a name="neofetch"></a>
+```bash
+nepfetch # prints info about system
+
