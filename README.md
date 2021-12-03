@@ -70,4 +70,10 @@ tar xvf name.tar // extracts files from name.tar in current dir
 ### neofetch - Info about system <a name="neofetch"></a>
 ```bash
 neofetch # prints info about system
+```
 
+### GIT status
+To display a git status you can use
+```bash
+git status
+```
