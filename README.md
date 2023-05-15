@@ -10,6 +10,8 @@ List of tips and code's snippets of oneself
 6. [Start NodeJS](#startnodejs)
 7. [TAR commands](#tar)
 8. [neofetch](#neofetch)
+9. [Git Status](#gitstatus)
+10. [Ruby Time formatting](#timeformatting)
 
 ### Perform command numerous times (for statement) <a name="multitimes"></a>
 ```bash
@@ -72,8 +74,14 @@ tar xvf name.tar // extracts files from name.tar in current dir
 neofetch # prints info about system
 ```
 
-### GIT status
+### GIT status <a name="gitstatus"></a>
 To display a git status you can use
 ```bash
 git status
+```
+
+### Ruby Time formatting <a name="timeformatting"></a>
+This line prints out current time into console by using Ruby with `-e` key
+```bash
+ruby -e 'puts Time.now.strftime "%H hours %M minutes"'
 ```
